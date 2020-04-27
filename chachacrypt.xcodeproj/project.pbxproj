@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823C323524573C55008E7BBC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C323424573C55008E7BBC /* main.swift */; };
+		823C323C2457429A008E7BBC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C323B2457429A008E7BBC /* Model.swift */; };
+		823C323E245742AF008E7BBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C323D245742AF008E7BBC /* Extensions.swift */; };
+		82E90000245751A2003DF2A0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C323424573C55008E7BBC /* main.swift */; };
+		82E90001245751A2003DF2A0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C323B2457429A008E7BBC /* Model.swift */; };
+		82E90002245751A2003DF2A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C323D245742AF008E7BBC /* Extensions.swift */; };
+		82E9FFFB24575147003DF2A0 /* chachacrypt_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9FFFA24575147003DF2A0 /* chachacrypt_test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		823C322F24573C55008E7BBC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		823C323124573C55008E7BBC /* chachacrypt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chachacrypt; sourceTree = BUILT_PRODUCTS_DIR; };
+		823C323424573C55008E7BBC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		823C323B2457429A008E7BBC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		823C323D245742AF008E7BBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		82E9FFF824575147003DF2A0 /* chachacrypt_test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chachacrypt_test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E9FFFA24575147003DF2A0 /* chachacrypt_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chachacrypt_test.swift; sourceTree = "<group>"; };
+		82E9FFFC24575147003DF2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823C322E24573C55008E7BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9FFF524575147003DF2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823C322824573C55008E7BBC = {
+			isa = PBXGroup;
+			children = (
+				823C323324573C55008E7BBC /* chachacrypt */,
+				82E9FFF924575147003DF2A0 /* chachacrypt_test */,
+				823C323224573C55008E7BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823C323224573C55008E7BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823C323124573C55008E7BBC /* chachacrypt */,
+				82E9FFF824575147003DF2A0 /* chachacrypt_test.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823C323324573C55008E7BBC /* chachacrypt */ = {
+			isa = PBXGroup;
+			children = (
+				823C323424573C55008E7BBC /* main.swift */,
+				823C323B2457429A008E7BBC /* Model.swift */,
+				823C323D245742AF008E7BBC /* Extensions.swift */,
+			);
+			path = chachacrypt;
+			sourceTree = "<group>";
+		};
+		82E9FFF924575147003DF2A0 /* chachacrypt_test */ = {
+			isa = PBXGroup;
+			children = (
+				82E9FFFA24575147003DF2A0 /* chachacrypt_test.swift */,
+				82E9FFFC24575147003DF2A0 /* Info.plist */,
+			);
+			path = chachacrypt_test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823C323024573C55008E7BBC /* chachacrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823C323824573C55008E7BBC /* Build configuration list for PBXNativeTarget "chachacrypt" */;
+			buildPhases = (
+				823C322D24573C55008E7BBC /* Sources */,
+				823C322E24573C55008E7BBC /* Frameworks */,
+				823C322F24573C55008E7BBC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chachacrypt;
+			productName = chachacrypt;
+			productReference = 823C323124573C55008E7BBC /* chachacrypt */;
+			productType = "com.apple.product-type.tool";
+		};
+		82E9FFF724575147003DF2A0 /* chachacrypt_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E9FFFF24575147003DF2A0 /* Build configuration list for PBXNativeTarget "chachacrypt_test" */;
+			buildPhases = (
+				82E9FFF424575147003DF2A0 /* Sources */,
+				82E9FFF524575147003DF2A0 /* Frameworks */,
+				82E9FFF624575147003DF2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chachacrypt_test;
+			productName = chachacrypt_test;
+			productReference = 82E9FFF824575147003DF2A0 /* chachacrypt_test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823C322924573C55008E7BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Juan Guerrero";
+				TargetAttributes = {
+					823C323024573C55008E7BBC = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					82E9FFF724575147003DF2A0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 823C322C24573C55008E7BBC /* Build configuration list for PBXProject "chachacrypt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 823C322824573C55008E7BBC;
+			productRefGroup = 823C323224573C55008E7BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823C323024573C55008E7BBC /* chachacrypt */,
+				82E9FFF724575147003DF2A0 /* chachacrypt_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E9FFF624575147003DF2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823C322D24573C55008E7BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823C323524573C55008E7BBC /* main.swift in Sources */,
+				823C323E245742AF008E7BBC /* Extensions.swift in Sources */,
+				823C323C2457429A008E7BBC /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9FFF424575147003DF2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E90000245751A2003DF2A0 /* main.swift in Sources */,
+				82E90001245751A2003DF2A0 /* Model.swift in Sources */,
+				82E90002245751A2003DF2A0 /* Extensions.swift in Sources */,
+				82E9FFFB24575147003DF2A0 /* chachacrypt_test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		823C323624573C55008E7BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		823C323724573C55008E7BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		823C323924573C55008E7BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66RNAFM9F3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		823C323A24573C55008E7BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66RNAFM9F3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		82E9FFFD24575147003DF2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 66RNAFM9F3;
+				INFOPLIST_FILE = chachacrypt_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fnxsoftware.tools.cli.chachacrypt-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		82E9FFFE24575147003DF2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 66RNAFM9F3;
+				INFOPLIST_FILE = chachacrypt_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fnxsoftware.tools.cli.chachacrypt-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823C322C24573C55008E7BBC /* Build configuration list for PBXProject "chachacrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823C323624573C55008E7BBC /* Debug */,
+				823C323724573C55008E7BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823C323824573C55008E7BBC /* Build configuration list for PBXNativeTarget "chachacrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823C323924573C55008E7BBC /* Debug */,
+				823C323A24573C55008E7BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E9FFFF24575147003DF2A0 /* Build configuration list for PBXNativeTarget "chachacrypt_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E9FFFD24575147003DF2A0 /* Debug */,
+				82E9FFFE24575147003DF2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823C322924573C55008E7BBC /* Project object */;
+}
